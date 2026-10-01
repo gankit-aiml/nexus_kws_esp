@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "nexus",
   "author": "uragirimono",
-  "model": "https://github.com/gankit-aiml/nexus_kws_esp/raw/refs/heads/main/nexus_wakeword.tflite",
+  "model": "nexus_wakeword.tflite",
   "trained_languages": ["en"],
   "version": 2,
   "micro": {
