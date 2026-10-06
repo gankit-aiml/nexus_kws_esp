@@ -17,7 +17,7 @@ Benchmarked live on a physical **ESP32-S3** microcontroller:
 
 | Metric | Target Constraint | Our Result | Proof of Engineering |
 | :--- | :--- | :--- | :--- |
-| **RAM Footprint** | `< 256 KB` | **~110 KB** | INT8 Quantized CNN + strict memory arena allocation. |
+| **RAM Footprint** | `< 256 KB` | **~116 KB** | INT8 Quantized CNN + strict memory arena allocation. |
 | **CPU Utilization** | `< 10% Idle` | **9.0%** | Inference completes in 1.5ms per 16.6ms hardware frame. |
 | **LAN Latency** | Minimal | **44 ms** | First audio byte received by local Python server. |
 | **Accuracy** | High TPR, 0 FPR | **98.4% TPR** | Evaluated on n=5000 with Hard Negative penalization. |
